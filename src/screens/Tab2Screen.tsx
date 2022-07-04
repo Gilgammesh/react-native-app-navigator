@@ -1,16 +1,16 @@
-import React, {useEffect} from 'react';
-import {View, Text} from 'react-native';
+import React, { useEffect } from 'react'
+import { View, Text } from 'react-native'
 
 const Tab2Screen = () => {
-	useEffect(() => {
-		console.log('Tab2Screen effect');
-	}, []);
+  useEffect(() => {
+    console.log('Tab2Screen effect')
+  }, [])
 
-	return (
-		<View>
-			<Text>Tab2 Screen</Text>
-		</View>
-	);
-};
+  return (
+    <View>
+      <Text>Tab2 Screen</Text>
+    </View>
+  )
+}
 
-export default Tab2Screen;
+export default Tab2Screen
